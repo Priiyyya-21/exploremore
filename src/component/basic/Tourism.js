@@ -16,8 +16,9 @@ const Tourism = () => {
   // const myStyle = { color: "red" }; // creating object and using wherever needed
   const [menuData, setMenuData] = useState(Places);
 
-  const [menuList, setMenuList] = useState(uniqueList)
-
+//   const [menuList, setMenuList] = useState(uniqueList)
+  const [menuList] = useState(uniqueList)
+  
   const filterItem = (category) => {
     if(category === "All"){
       setMenuData(Places)
