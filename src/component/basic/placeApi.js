@@ -13,8 +13,8 @@ const Places = [
     image: "images/jagannath.jpg",
     name: "Shree Jagannath Temple ",
     category: "odisha",
-      description:
-    "The Jagannath Temple at Puri is one of the most revered Vaishnava sites of worship in India. One of the oldest Hindu temples to still be in use, its main shrine was built by Anantavarman of the Chodaganga dynasty in the tenth century. The deities within the shrine, however, are believed to be much older and are associated with the great mythical ruler of the Satya-yuga, King Indrayumna, nephew of Lord Ram.",
+    description:
+      "The Jagannath Temple at Puri is one of the most revered Vaishnava sites of worship in India. One of the oldest Hindu temples to still be in use, its main shrine was built by Anantavarman of the Chodaganga dynasty in the tenth century. The deities within the shrine, however, are believed to be much older and are associated with the great mythical ruler of the Satya-yuga, King Indrayumna, nephew of Lord Ram.",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const Places = [
     name: "Konarak Sun Temple",
     category: "odisha",
     description:
-    "The Konark or Konarak Sun Temple is dedicated to the Hindu sun god Surya, and, conceived as a giant stone chariot with 12 wheels, it is the most famous of the few sun temples built in India. It is located about 35 km northeast of the city of Puri on the coastline in the state of Odisha (earlier Orissa)",
+      "The Konark or Konarak Sun Temple is dedicated to the Hindu sun god Surya, and, conceived as a giant stone chariot with 12 wheels, it is the most famous of the few sun temples built in India. It is located about 35 km northeast of the city of Puri on the coastline in the state of Odisha (earlier Orissa)",
   },
   {
     id: 6,

@@ -6,7 +6,7 @@
   }
   
   html {
-    background: #faf7f2;
+    background:rgb(24, 2, 47);
     background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png);
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
@@ -44,6 +44,7 @@
   .card-container img {
     max-width: 100%;
     height: 300px;
+    border-radius: 10px;
   }
   
   .card {
