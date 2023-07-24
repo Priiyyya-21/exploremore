@@ -38,6 +38,7 @@
     grid-template-columns: 1fr;
     justify-content: space-around;
     align-items: flex-start;
+   
   }
   
   .card-container img {
@@ -51,6 +52,7 @@
     position: relative;
     box-shadow: 0 0 5px rgba(75, 75, 75, 0.07);
     z-index: 1;
+    border-radius: 20px;
   }
   
   .card-body {
@@ -145,6 +147,18 @@
     z-index: -1;
   }
   
+
+  /*smaller screen*/
+  @media only screen and (max-width: 600px)
+  {
+    .main-card--cointainer {
+      display: grid;
+      grid-template-columns: repeat(1, minmax(200px, 500px));
+      grid-gap: 50px;
+      justify-content: space-around;
+    }
+  }
+
   @media (max-width: 998px) {
     .main-card--cointainer {
       display: grid;
